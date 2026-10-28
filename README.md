@@ -1,3 +1,5 @@
+> **Reference branch, not a pull request.** `proto/xai/api/v1/collections.proto`, `shared.proto` and `types.proto` on this branch are rendered from the descriptors compiled into xai-sdk-python, as a reference for [xai-org/xai-proto#83](https://github.com/xai-org/xai-proto/issues/83); see [`scripts/README.md`](./scripts/README.md). Everything else is unchanged from `xai-org/xai-proto` `main`.
+
 # xAI API Protobuf Definitions
 
 This repository hosts the public Protocol Buffer (protobuf) definitions for xAI's gRPC-based APIs. These protobuf files define the service interfaces and message structures compatible with xAI's gRPC servers, enabling developers to generate client SDKs in any language supported by the protobuf and gRPC ecosystems. xAI provides an official SDK for [Python](https://github.com/xai-org/xai-sdk-python), which is built on top of these protobuf definitions.
